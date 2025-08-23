@@ -9,7 +9,7 @@
 
 **Screenshots:**  
 ![System Information](screenshots/WindowsEdition.png)  
-![Windows 11 Editions](Win11HomePro.png)
+![Windows 11 Editions](screenshots/Win11HomePro.png)
 
 ### The File System
 **Action:** Explored the different file systems supported by Windows and examined how NTFS manages permissions and security features.  
