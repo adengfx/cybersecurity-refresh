@@ -37,8 +37,8 @@ Each project includes a README detailing objectives, steps, tools used, screensh
 
 ## Contact
 
-- GitHub: [github.com/YourUsername](https://github.com/adengfx)  
-- LinkedIn: [linkedin.com/in/YourLinkedIn](https://www.linkedin.com/in/aden-rees-yasin-a79986134/)  
+- [Github](https://github.com/adengfx)  
+- [LinkedIn](https://www.linkedin.com/in/aden-rees-yasin-a79986134/)  
 
 ---
 
