@@ -11,6 +11,8 @@
 ![System Information](screenshots/room1/WindowsEdition.png)  
 ![Windows 11 Editions](screenshots/room1/Win11HomePro.png)
 
+---
+
 ### The File System
 **Action:** Explored the different file systems supported by Windows and examined how NTFS manages permissions and security features.  
 **Observation:** Identified NTFS as the primary Windows file system. Learned what NTFS stands for (New Technology File System) and its key features, such as file permissions, encryption, and compression.  
@@ -20,10 +22,14 @@
 ![NTFS](screenshots/room1/NTFS.png)  
 ![UAC Prompt](screenshots/room1/NTFSPermissions.png)
 
+---
+
 ### The Windows\System32 Folder
 **Action:** Explored the System32 folder in Windows to understand its contents and purpose.  
 **Observation:** This was already familiar, but it reinforced the importance of System32 as it contains critical files for the Windows OS.  
 **Lesson Learned:** Although this was a review, it highlighted the need to proceed with extreme caution when working in the System32 folder.  
+
+---
 
 ### User Accounts, Profiles, and Permissions
 **Action:** Explored Windows and its user management system.  
@@ -33,13 +39,19 @@
 **Screenshots:**  
 ![User Properties](screenshots/room1/useraccounts.png)
 
+---
+
 ### User Account Control (UAC)
 **Action:** Reviewed how UAC works within Windows.  
 **Observation:** This was already familiar, but it reinforced how to manage each user’s access effectively.  
 **Lesson Learned:** Although this was a review, it highlighted the importance of granting users only the access they need, rather than full admin rights, which can create security risks.
 
+---
+
 ### Conclusion
 Overall, this room provided a general overview of the Windows OS. While many tasks were already familiar, it reinforced foundational concepts and introduced new insights, such as NTFS key features and the role of UAC in system security. This lab helped consolidate my understanding of Windows security and administration, laying the groundwork for more advanced labs.
+
+---
 
 ## Room 2: Windows Fundamentals 2
 
@@ -119,3 +131,12 @@ Overall, this room provided a general overview of the Windows OS. While many tas
 
 ### Conclusion
 Room 2 of Windows Fundamentals built on the basics from Room 1 and introduced more advanced system management tools. I gained hands-on experience with System Configuration, Computer Management, System Information, and Resource Monitor, learning how to diagnose startup issues, monitor performance, and manage users and hardware efficiently. While some sections were familiar, exploring these tools in depth highlighted new features and best practices that will be directly applicable in my role as a Service Desk Analyst, particularly for troubleshooting and system administration tasks.
+
+---
+
+## Room 3: Windows Fundamentals 3
+
+**Note:** All tasks in this room were familiar from previous experience as a Service Desk Analyst. This room served primarily as a refresher on Windows security tools and features.
+
+### Conclusion
+Room 3 reinforced my understanding of Windows security and built on knowledge from Rooms 1 and 2. No new tools or concepts were introduced, but it provided a helpful recap of best practices.
