@@ -1,3 +1,4 @@
+# Windows Security Lab 
 ## Room 1: Windows Fundamentals 1
 
 **Note:** Some basic Windows navigation tasks (e.g., Start Menu, Task Manager, Control Panel browsing) were already familiar and are not included.
