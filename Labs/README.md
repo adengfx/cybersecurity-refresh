@@ -11,4 +11,3 @@ This folder contains all my hands-on cybersecurity labs, including TryHackMe and
 ### Lab List
 - [Windows Fundamentals](./TryHackMe_Windows_Fundamentals)  
 - [Linux Fundamentals](./TryHackMe_Linux_Fundamentals)  
-- [Windows Security](./TryHackMe_Windows_Security)  
