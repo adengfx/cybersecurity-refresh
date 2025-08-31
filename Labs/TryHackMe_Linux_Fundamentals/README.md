@@ -1,9 +1,9 @@
 # Linux Fundamentals Lab
 
 ## Lab Navigation
-- [Room 1](#room-1)
-- [Room 2](#room-2)
-- [Room 3](#room-3)
+- [Room 1](#Room-1)
+- [Room 2](#Room-2)
+- [Room 3](#Room-3)
 
 ---
 
@@ -31,7 +31,7 @@ Familiarised myself with the Linux terminal by running basic commands and observ
 Linux is primarily operated through the terminal, making command-line familiarity essential.
 
 #### Screenshots
-![Terminal](screenshots/room1/terminal.png)
+![Terminal](screenshots/Room1/terminal.png)
 
 ---
 
@@ -46,7 +46,7 @@ Commands like `ls`, `cd`, `pwd`, and `mkdir` allow for efficient directory and f
 Some Linux commands are identical or similar to Windows commands, easing the transition.
 
 #### Screenshots
-![Filesystem](screenshots/room1/filesystem.png)
+![Filesystem](screenshots/Room1/filesystem.png)
 
 ---
 
@@ -62,7 +62,7 @@ Used the `find` and `grep` commands to locate files and search their contents.
 These commands greatly improve efficiency for locating files and searching contents.
 
 #### Screenshots
-![Find and Grep](screenshots/room1/find_grep.png)
+![Find and Grep](screenshots/Room1/find_grep.png)
 
 ---
 
@@ -80,12 +80,12 @@ Explored shell operators and their use cases.
 Shell operators allow more efficient workflows by chaining commands and controlling output.
 
 #### Screenshots
-![Shell Operators](screenshots/room1/shell_operators.png)
+![Shell Operators](screenshots/Room1/shell_operators.png)
 
 ---
 
 ### Conclusion
-This room reinforced previously learned Linux concepts and introduced practical tools. Similarity to Windows commands makes learning easier, and shell operators plus file search commands improve efficiency.
+This Room reinforced previously learned Linux concepts and introduced practical tools. Similarity to Windows commands makes learning easier, and shell operators plus file search commands improve efficiency.
 
 ---
 
@@ -114,7 +114,7 @@ This room reinforced previously learned Linux concepts and introduced practical 
 Gained a better understanding of how flags provide extra functionality to commands. The `--help` and `man` commands are essential for learning more about how a command works and what options it supports. The `-a` flag is especially useful for locating hidden files and directories.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room2/flags.png)  
+![Screenshot](screenshots/Room2/flags.png)  
 
 ---
 
@@ -133,7 +133,7 @@ Gained a better understanding of how flags provide extra functionality to comman
 Learned how to quickly create, copy, move, and remove files and directories directly from the terminal, which is faster than using a GUI. The `file` command is also useful for identifying file types when working with multiple files that share similar names.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room2/filesys.png)  
+![Screenshot](screenshots/Room2/filesys.png)  
 
 ---
 
@@ -148,7 +148,7 @@ Learned how to quickly create, copy, move, and remove files and directories dire
 Learned how to identify file ownership and permissions using `ls -lh`. Using `su -l` allows switching to another user account, which can grant access to files based on ownership and permissions.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room2/perm.png)  
+![Screenshot](screenshots/Room2/perm.png)  
 
 ---
 
@@ -165,7 +165,7 @@ Learned how to identify file ownership and permissions using `ls -lh`. Using `su
 Although mainly a reading task, this was helpful in understanding the purpose of important system directories. This knowledge is useful when troubleshooting or searching for specific files such as logs.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room2/dir.png)  
+![Screenshot](screenshots/Room2/dir.png)  
 
 ---
 
@@ -204,8 +204,8 @@ Room 2 helped reinforce core Linux skills: using flags and switches, interacting
 Learned how to quickly create and edit files within the Linux terminal. This can be faster than opening a GUI text editor, especially when working on servers without a desktop environment.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room3/nano.png)  
-![Screenshot](screenshots/room3/text_editor.png)  
+![Screenshot](screenshots/Room3/nano.png)  
+![Screenshot](screenshots/Room3/text_editor.png)  
 
 ---
 
@@ -221,7 +221,7 @@ Learned how to quickly create and edit files within the Linux terminal. This can
 Learned how to host a quick web server using Python and download files via `wget`. Also practised transferring files with `scp`, which is useful for securely moving files between machines.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room3/webserver.png)  
+![Screenshot](screenshots/Room3/webserver.png)  
 
 ---
 
@@ -278,7 +278,7 @@ Learned how package management works in Ubuntu/Debian. Adding repositories expan
 Learned how to access and interpret Linux logs. Logs are critical for troubleshooting, monitoring performance, and detecting suspicious or malicious activity.  
 
 **Screenshots:**  
-![Screenshot](screenshots/room3/logs.png)  
+![Screenshot](screenshots/Room3/logs.png)  
 
 ---
 
