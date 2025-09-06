@@ -70,7 +70,50 @@ Screenshots:
 
 ## Task 4 - Managing Users in AD
 Notes:  
+
+# Deleting OUs
+- To delete OUs, need to enable advanced features
+- Once enabled, it gives you option to disable accidental deletion protection
+- Once unticked, you can delete.
+
 Screenshots:  
+![Insufficient Privileges](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/deletion_warning.png?raw=true)
+
+![Advanced Features](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/advanced_features.png?raw=true)
+
+![Accidental Deletion](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/accidental_deletion.png?raw=true)
+
+# Delegation
+- In AD you can give specific users control over some OUs. This is called delegation.
+- Allows you to grant users specific privileges to perform advanced tasks without need of domain admin.
+- This is used in IT Support. For example, giving access to reset passwords, add/remove users from groups.
+- Below screenshots show the Delegation wizard.
+
+Screenshots:  
+![Delegate Control](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/delegate_control.png?raw=true)
+
+- After this, we are going to test Phillips' new control
+- RDP via Attackbox using 'xfreerdp'
+- Doesn't have privileges to open AD, so resetting via powershell, the command resets the password, Prompts you to change it and the second command is to ensure the password is changed on logon
+
+Screenshots:  
+![Delegate Control](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/delegate_control.png?raw=true)
+
+![Delegate Control Wizard](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/delegate_control_wizard.png?raw=true)
+
+![Adding User](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/adding_user.png?raw=true)
+
+![Adding Tasks](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/delegate_tasks.png?raw=true)
+
+![Delegation Wizard Completed](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/complete_delegation.png?raw=true)
+
+![Attackbox xfreerdp](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/attackbox_rdp.png?raw=true)
+
+![Phillip RDP](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/phillip_rdp.png?raw=true)
+
+![Resetting Password](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/Active_Directory_Basics/screenshots/resetting_password_powershell.png?raw=true)
+
+- After this, we were able to successfully log into sophies account and we get the change password prompt.
 
 ---
 
