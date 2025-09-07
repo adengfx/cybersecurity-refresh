@@ -34,12 +34,6 @@ As I use Active Directory in my day-to-day role as a Service Desk Analyst, I alr
 - Centralized identity management  
 - Security policies applied network-wide  
 
-<details>
-<summary>Screenshots</summary>
-
-<!-- Add any relevant screenshots here if available -->
-
-</details>
 
 ---
 
@@ -66,12 +60,6 @@ As I use Active Directory in my day-to-day role as a Service Desk Analyst, I alr
 - **OUs (Organizational Units):** Apply policies, usually one OU per role/department.  
 - **Security Groups:** Grant access (e.g., shared folders, printers). Users can belong to many groups.  
 
-<details>
-<summary>Screenshots</summary>
-
-<!-- Add relevant screenshots -->
-
-</details>
 
 ---
 
