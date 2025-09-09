@@ -17,10 +17,16 @@ Task 9: Conclusion
 ## Task 2: What is Powershell:
 
 ### Notes:
+- Powershell is a powerful tool from Microsoft.
+- It is desgiend for task automation and configuration management.
+- Combines command-line interface + scripting language based on .NET Framework.
+- Object-oriented. Can handle complex datatypes, interact with system components effectively.
+- Initially exclusive to Windows, lately expanded to macOS/Linux
 
-## Screenshots:
-
-
+- To fully grasp power of Powershell, need to understand what object is in this context.
+- In programming, object represents item with properties (characteristics) and methods (actions).
+- 'Car' object might have properties like 'Color, Model and Fuel Level'
+- Methods like 'Drive(), Honkhorn(), Refuel()'
 
 ## Task 3: Powershell Basics:
 
