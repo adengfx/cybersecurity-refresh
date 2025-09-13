@@ -27,25 +27,9 @@ Task 6: Conclusion
 - Tip: By piping a command through something like 'more', you can display output page by page, particularly useful if you are expecting a long output. You can exit this with 'ctrl+c'
 ![DriverQuery](https://github.com/adengfx/cybersecurity-refresh/blob/main/Notes/windows_command_line/screenshots/driver_query.png?raw=true)
 
-## Task 3: Network Troubleshooting:
-
+## Task 3 + 4:
 ### Notes:
-
-## Screenshots:
-
-
-## Task 4: File and Disk Management:
-
-### Notes:
-
-## Screenshots:
-
-
-## Task 5: Task and Process Management:
-
-### Notes:
-
-## Screenshots:
+- I am already aware of networking troubleshooting through the command line, along with the file and disk management tasks, as I use this frequently to troubleshoot issues as a Service Desk Analyst, so I have skipped the notes for this section. It was useful to go over this once again, however.
 
 
 ## Task 6: Conclusion:
