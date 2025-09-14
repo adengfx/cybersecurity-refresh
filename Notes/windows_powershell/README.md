@@ -32,10 +32,10 @@ Task 9: Conclusion
 
 ### Notes:
 - In this task, we will be going over the basics of PowerShell. First, we will be connecting to the target VM via SSH using the Reminna Client
-*screenshot*
+![Reminna Client](./screenshots/reminna.png "Reminna Client")
 
 - PowerShell can be launched in several ways, depending on the Environment. Below, we are launching it via CMD, by typing PowerShell and pressing Enter
-*screenshot*
+![Launching Powershell](./screenshots/launching_powershell.png "Launching Powershell")
 
 - PowerShell commands are known as 'cmdlets'. Much more powerful than traditional Windows commands, they allow for more advanced data manipulation.
 
@@ -44,17 +44,16 @@ Task 9: Conclusion
   - 'Set-Location': Changes current working directory.
 
 - To list all available cmdlets, functions, aliases, and scripts that can be executed in the current PowerShell session, use 'Get-Command'. Essential for discovering what commands can be used.
-*screenshot*
+![Get-Command](./screenshots/get-command.png "Get-Command")
   
 - We can filter the list of commands. Example, if we want to only display functions, we can use '-CommandType "Function"'
-*screenshot*
 
 - Another essential cmdlet that is useful is 'Get-Help'. Provides detailed information about cmdlets, including usage, parameters, and examples. It informs us that we can retrieve other useful information by appending options to the syntax.
-*screenshot*
-*screenshot*
+![Get-Help](./screenshots/get-help.png "Get-Help")
+![Examples](./screenshots/examples.png "Examples")
 
 - PowerShell also includes aliases, which are shortcuts/alternative names for cmdlets. For example, the command 'echo' is an alias of 'Write-Output'
-*screenshot*
+![Get-Alias](./screenshots/get-alias.png "Get-Alias")
 
 - To search for modules in online repositories, we can use Find-Module. If we don't know exact name, we can search for modules with similar names. We can do this by filtering by 'Name' and using a wildcard. For example, 'Find-Module -Name "PowerShell*'.
 
