@@ -32,10 +32,10 @@ Task 9: Conclusion
 
 ### Notes:
 - In this task, we will be going over the basics of PowerShell. First, we will be connecting to the target VM via SSH using the Reminna Client
-![Reminna Client](./screenshots/reminna.png "Reminna Client")
+![Reminna Client](./screenshots/reminna.png)
 
 - PowerShell can be launched in several ways, depending on the Environment. Below, we are launching it via CMD, by typing PowerShell and pressing Enter
-![Launching Powershell](./screenshots/launching_powershell.png "Launching Powershell")
+![Launching Powershell](./screenshots/launching_powershell.png)
 
 - PowerShell commands are known as 'cmdlets'. Much more powerful than traditional Windows commands, they allow for more advanced data manipulation.
 
@@ -44,16 +44,16 @@ Task 9: Conclusion
   - 'Set-Location': Changes current working directory.
 
 - To list all available cmdlets, functions, aliases, and scripts that can be executed in the current PowerShell session, use 'Get-Command'. Essential for discovering what commands can be used.
-![Get-Command](./screenshots/get-command.png "Get-Command")
+![Get-Command](./screenshots/get-command.png)
   
 - We can filter the list of commands. Example, if we want to only display functions, we can use '-CommandType "Function"'
 
 - Another essential cmdlet that is useful is 'Get-Help'. Provides detailed information about cmdlets, including usage, parameters, and examples. It informs us that we can retrieve other useful information by appending options to the syntax.
-![Get-Help](./screenshots/get-help.png "Get-Help")
-![Examples](./screenshots/examples.png "Examples")
+![Get-Help](./screenshots/get-help.png)
+![Examples](./screenshots/examples.png)
 
 - PowerShell also includes aliases, which are shortcuts/alternative names for cmdlets. For example, the command 'echo' is an alias of 'Write-Output'
-![Get-Alias](./screenshots/get-alias.png "Get-Alias")
+![Get-Alias](./screenshots/get-alias.png)
 
 - To search for modules in online repositories, we can use Find-Module. If we don't know exact name, we can search for modules with similar names. We can do this by filtering by 'Name' and using a wildcard. For example, 'Find-Module -Name "PowerShell*'.
 
@@ -62,8 +62,19 @@ Task 9: Conclusion
 ## Task 4: Navigating the File System and Working with Files:
 
 ### Notes:
+- PowerShell provides a range of cmdlets for navigating the file system and managing files. Many have counterparts in traditional Windows CLI.
+- Similar to the 'dir' command in CMD (or ls in Linux), 'Get-ChildItem' lists files and directories for the location specified with the '-Path' parameter. Can be used to explore directories and their contexts.
+- If no path is specified, it will display the content of the current directory
 
-## Screenshots:
+- Set-Location is similar to the cd command in Command Prompt. It changes the current directory. For example, 'Set-Location -Path ".\Documents' will take you to the documents folder.
+
+- To create an item in PowerShell, we can use 'New-Item'. Will need to specify whether it is a file or a directory. (New-Item -Path ".\path-to\folder" -ItemType "Directory")
+
+- 'Remove-Item' removes both directories and files, a combination of 'rmdir' and 'del' in CMD.
+
+- 'Copy-Item' copies both files and directories (equivalent to copy), and Move-Item moves them (comparable to move).
+
+- Get-Content similar to 'type' in CMD (or cat in Linux), it reads and displays the content of a file.
 
 
 ## Task 5: Piping, Filtering, and Sorting Data:
