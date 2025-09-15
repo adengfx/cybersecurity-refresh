@@ -81,6 +81,28 @@ Task 9: Conclusion
 
 ### Notes:
 
+- Piping is a technique used in command line interfaces. Allows output of one command to be used as input of another.
+- Creates a squence of operations where data flows from one command to the next.
+- Represented by the | symbol.
+- It is widely used in Windows CLI. As well as unix-based shelsls.
+
+- In PowerShell, piping is even more powerful because it passes objects rather than just text. Objects carry not only data, but also properies and methods that describe/interact with data.
+
+- For example, if you want to get a list of files in a directory, and then sort them by size, you could use 'Get-ChildItem | Sort-Object Length'.
+
+- Get-ChildItem retrieves files, pipe sends those files to 'Sort-Object' which sorts them by their 'Length' (size)
+
+- To filter object based on specific conditions, returning only those that meet criteria, we can use 'Where-Object'.
+- For example, 'Get-ChildItem | Where-Object Length -gt 100' will return items in current directory with size greater than 100.
+  - '-ne' = not equal
+  - '-gt' = greater than
+  - '-ge- = greater than or equal to
+  -  '-lt' = less than
+  -  '-le' = less than or equal to
+ 
+- 'Select-Object' is used to select specific properties from objects/limit number of objects returned. Refining the output. It supports the use of regex.
+    - For example, 'Get-ChildItem | Select-Object Name, Length' will return just the name and size of a file.
+
 ## Screenshots:
 
 
