@@ -148,17 +148,17 @@ The room consists of the following tasks:
 ### Notes:
 - `Get-Process` provides detailed view of running processes
 - Includes CPU and memory usage
-![Get-Process](./screenshots/get-process.png)
+![Get-Process](./screenshots/Get-Process.png)
 
 - `Get-Service` retrieves service status information
 - Shows running, stopped, or paused services
 - Used by system administrators and forensic analysts to detect anomalous services
-![Get-Service](./screenshots/get-service.png)
+![Get-Service](./screenshots/Get-Service.png)
 
 - `Get-NetTCPConnection` displays current TCP connections
 - Provides insights into local and remote endpoints
 - Useful for incident response and malware analysis to detect hidden backdoors
-![Get-NetTCPConnection](./screenshots/get-nettcpconnection.png)
+![Get-NetTCPConnection](./screenshots/Get-NetTCPConnection.png)
 
 - `Get-FileHash` generates file hashes
 - Valuable for incident response, threat hunting, and malware analysis
@@ -180,7 +180,7 @@ The room consists of the following tasks:
 - **Red Team** uses PowerShell scripts for:
   - System enumeration
   - Executing remote commands
-  - Crafting obfuscated scripts to bypass defenses
+  - Crafting obfuscated scripts to bypass defences
   - Simulating attacks and testing system resilience
 
 - **System Administrators** use scripts for:
