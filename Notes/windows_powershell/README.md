@@ -192,7 +192,7 @@ The room consists of the following tasks:
 - `Invoke-Command` executes commands on remote systems
 - Enables efficient remote management and automation across multiple machines
 - Used by penetration testers and attackers to execute payloads on target systems
-![Invoke-Command](./screenshots/Invoke-Command.png)
+![Invoke-Command](./screenshots/invoke-command.png)
 
 ## Task 9: Conclusion
 
